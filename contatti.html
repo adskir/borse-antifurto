@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contatti — ARCA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="draft-banner">🔒 <strong>Bozza di lavoro</strong> — modulo dimostrativo, non invia ancora dati reali.</div>
+
+<header class="site-header">
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-contacts">
+        <a href="tel:+390000000000">📞 +39 000 000 0000</a>
+        <a href="mailto:info@arca-borse.it">✉️ info@arca-borse.it</a>
+      </div>
+      <div class="topbar-contacts"><span>Spedizione assicurata in tutta Italia</span></div>
+    </div>
+  </div>
+  <nav class="navbar container">
+    <a href="index.html" class="brand"><span class="brand-mark">A</span><span>ARCA</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="collezione.html">Collezione</a></li>
+      <li><a href="tecnologia.html">Tecnologia</a></li>
+      <li><a href="chi-siamo.html">Chi Siamo</a></li>
+      <li><a href="contatti.html" class="active">Contatti</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="collezione.html" class="btn btn--primary">Scopri la collezione</a>
+      <button class="nav-toggle" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Contatti</div>
+    <h1>Parliamone</h1>
+    <p class="lead">Domande sul prodotto, richieste stampa, collaborazioni o semplice curiosità: scrivici, ti risponderemo al più presto.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid grid--2" style="align-items:start;">
+    <div>
+      <h2>Scrivici</h2>
+      <form class="form-grid" id="contact-form">
+        <div class="form-row">
+          <div>
+            <label for="nome">Nome e cognome</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+        <div>
+          <label for="motivo">Motivo del contatto</label>
+          <select id="motivo" name="motivo">
+            <option>Informazioni sulla collezione</option>
+            <option>Domande sulla tecnologia antifurto</option>
+            <option>Richiesta stampa / collaborazione</option>
+            <option>Assistenza post-vendita</option>
+            <option>Altro</option>
+          </select>
+        </div>
+        <div>
+          <label for="messaggio">Messaggio</label>
+          <textarea id="messaggio" name="messaggio" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary" style="justify-self:start;">Invia messaggio</button>
+        <p id="form-note" style="display:none; font-size:.85rem; color:var(--ink-soft); margin-top:-6px;"></p>
+      </form>
+    </div>
+    <div>
+      <h2>Recapiti</h2>
+      <div style="display:flex; flex-direction:column; gap:16px; margin-bottom:28px;">
+        <div class="contact-card">
+          <div class="card-icon">📞</div>
+          <div><h4>Telefono</h4><p>+39 000 000 0000</p></div>
+        </div>
+        <div class="contact-card">
+          <div class="card-icon">✉️</div>
+          <div><h4>Email</h4><p>info@arca-borse.it</p></div>
+        </div>
+        <div class="contact-card">
+          <div class="card-icon">💬</div>
+          <div><h4>WhatsApp</h4><p><a href="https://wa.me/390000000000">Scrivici direttamente →</a></p></div>
+        </div>
+        <div class="contact-card">
+          <div class="card-icon">📍</div>
+          <div><h4>Sede</h4><p>Bari, Puglia — Italia</p></div>
+        </div>
+      </div>
+      <div class="map-embed">
+        <iframe
+          src="https://www.google.com/maps?q=Bari,+Italia&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Mappa sede ARCA">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--cream section--tight">
+  <div class="container" style="text-align:center;">
+    <div class="eyebrow" style="justify-content:center;">Anteprima</div>
+    <h2>Vuoi essere tra i primi a scoprire ARCA?</h2>
+    <p class="lead" style="margin:0 auto 24px;">Iscriviti per ricevere aggiornamenti sul lancio, disponibilità limitate e anteprime esclusive.</p>
+    <form style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; max-width:460px; margin:0 auto;">
+      <input type="email" placeholder="La tua email" style="flex:1; min-width:220px;">
+      <button type="submit" class="btn btn--primary">Iscriviti</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><span class="brand-mark">A</span> ARCA</div>
+        <p style="max-width:280px;">Borse di lusso italiane con sistema antifurto intelligente integrato.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="TikTok">tt</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Il sito</h4>
+        <ul>
+          <li><a href="collezione.html">Collezione</a></li>
+          <li><a href="tecnologia.html">Tecnologia</a></li>
+          <li><a href="chi-siamo.html">Chi Siamo</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Assistenza</h4>
+        <ul>
+          <li><a href="contatti.html">Domande frequenti</a></li>
+          <li><a href="contatti.html">Spedizioni e resi</a></li>
+          <li><a href="contatti.html">Garanzia</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contatti</h4>
+        <ul>
+          <li><a href="tel:+390000000000">+39 000 000 0000</a></li>
+          <li><a href="mailto:info@arca-borse.it">info@arca-borse.it</a></li>
+          <li><a href="https://wa.me/390000000000">WhatsApp →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 ARCA — Bozza di lavoro, non sito ufficiale</span>
+      <span><a href="#">Privacy</a> · <a href="#">Cookie</a></span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/390000000000" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
