@@ -2,278 +2,303 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ARCA — Borse di lusso con sistema antifurto intelligente</title>
-<meta name="description" content="ARCA: borse di lusso italiane con sistema antifurto integrato, sincronizzato con smartphone e smartwatch. Eleganza artigianale, protezione intelligente.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creazione Moderna — Oscuramento vetri, PPF e wrapping a Bari</title>
+<meta name="description" content="Oscuramento vetri, pellicole PPF, wrapping, illuminazione LED e car audio a Bari. Officina di Antonio Ungaro in Via Cardinale Marcello Mimmi 3.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0c0d0f">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Creazione Moderna — Oscuramento vetri, PPF e wrapping a Bari">
+<meta property="og:description" content="Pellicole, wrapping, LED e car audio. Bozza del nuovo sito.">
+<meta property="og:url" content="https://borse-antifurto.netlify.app/">
+<meta property="og:image" content="https://borse-antifurto.netlify.app/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://borse-antifurto.netlify.app/assets/og.jpg">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
-<div class="draft-banner">🔒 <strong>Bozza di lavoro</strong> — struttura e design indicativi, in attesa di materiali reali (foto, loghi, testi definitivi).</div>
+<div class="draft">Bozza realizzata da ClickBari. Testi e foto da confermare.</div>
 
-<header class="site-header">
-  <div class="topbar">
-    <div class="container">
-      <div class="topbar-contacts">
-        <a href="tel:+390000000000">📞 +39 000 000 0000</a>
-        <a href="mailto:info@arca-borse.it">✉️ info@arca-borse.it</a>
-      </div>
-      <div class="topbar-contacts">
-        <span>Spedizione assicurata in tutta Italia</span>
-      </div>
-    </div>
-  </div>
-  <nav class="navbar container">
-    <a href="index.html" class="brand">
-      <span class="brand-mark">A</span>
-      <span>ARCA</span>
+<header class="hdr" id="top">
+  <div class="wrap hdr-in">
+    <a href="#top" class="logo" aria-label="Creazione Moderna">
+      <span class="logo-cm">CM</span>
+      <span class="logo-txt">Creazione<br>Moderna</span>
     </a>
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="collezione.html">Collezione</a></li>
-      <li><a href="tecnologia.html">Tecnologia</a></li>
-      <li><a href="chi-siamo.html">Chi Siamo</a></li>
-      <li><a href="contatti.html">Contatti</a></li>
-    </ul>
-    <div class="nav-cta">
-      <a href="collezione.html" class="btn btn--primary">Scopri la collezione</a>
-      <button class="nav-toggle" aria-label="Menu">☰</button>
-    </div>
-  </nav>
+    <nav class="nav" id="nav">
+      <a href="#servizi">Servizi</a>
+      <a href="#pellicole">Pellicole</a>
+      <a href="#lavori">Lavori</a>
+      <a href="#recensioni">Recensioni</a>
+      <a href="#dove">Dove siamo</a>
+    </nav>
+    <a class="btn btn-sm btn-accent hdr-cta" href="#preventivo">Preventivo</a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
 </header>
 
+<main>
+
+<!-- HERO -->
 <section class="hero">
-  <div class="container">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="kicker">Officina a Bari · Via Cardinale Marcello Mimmi 3</p>
+      <h1>Oscuramento vetri, PPF e wrapping <span>fatti a mano, al millimetro.</span></h1>
+      <p class="lead">Pellicole per vetri, protezione della carrozzeria, wrapping, luci LED e car audio. Antonio segue di persona ogni lavoro sulla tua auto.</p>
+      <div class="hero-act">
+        <a class="btn btn-accent" href="#preventivo">Chiedi un preventivo</a>
+        <a class="btn btn-ghost" href="https://wa.me/393334150804" target="_blank" rel="noopener">Scrivi su WhatsApp</a>
+      </div>
+      <a class="g-badge" href="https://www.google.com/maps/place/?q=place_id:ChIJgYCbsfzyRxMRjWw0ph49-mY" target="_blank" rel="noopener">
+        <b>4,9</b>
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <span>89 recensioni su Google</span>
+      </a>
+    </div>
+
+    <!-- simulatore oscuramento -->
+    <div class="tint" aria-label="Simulatore oscuramento vetri">
+      <div class="tint-stage" id="tintStage" style="--vlt:.2">
+        <svg class="car" viewBox="0 0 600 300" aria-hidden="true">
+          <defs>
+            <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#565d67"/><stop offset="1" stop-color="#1f2328"/>
+            </linearGradient>
+            <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#d9e4ec"/><stop offset="1" stop-color="#8fa6b8"/>
+            </linearGradient>
+          </defs>
+          <path d="M40 210 C40 175 70 160 120 152 L190 100 C210 86 235 80 262 80 L392 80 C420 80 440 88 458 104 L510 150 C545 156 566 172 566 200 L566 222 C566 232 558 238 548 238 L52 238 C44 238 40 232 40 224 Z" fill="url(#body)"/>
+          <path d="M200 148 L238 104 C246 96 254 93 266 93 L318 93 L318 148 Z" fill="url(#sky)"/>
+          <path d="M332 148 L332 93 L390 93 C404 93 414 97 424 106 L470 148 Z" fill="url(#sky)"/>
+          <g fill="#3b4048"><rect x="276" y="112" width="20" height="26" rx="6"/><rect x="420" y="118" width="18" height="24" rx="6"/><path d="M262 148 L270 130 L300 130 L304 148 Z"/></g>
+          <g class="film">
+            <path d="M200 148 L238 104 C246 96 254 93 266 93 L318 93 L318 148 Z"/>
+            <path d="M332 148 L332 93 L390 93 C404 93 414 97 424 106 L470 148 Z"/>
+          </g>
+          <path d="M60 176 L560 176" stroke="#3a3f46" stroke-width="2"/>
+          <circle cx="160" cy="238" r="42" fill="#0b0c0e"/><circle cx="160" cy="238" r="22" fill="#3a3f46"/>
+          <circle cx="462" cy="238" r="42" fill="#0b0c0e"/><circle cx="462" cy="238" r="22" fill="#3a3f46"/>
+          <rect x="540" y="182" width="22" height="8" rx="3" fill="#ff5a1f" class="led"/>
+        </svg>
+        <div class="tint-read"><b id="vltVal">20%</b><span id="vltTxt">Privacy alta, visibile di giorno</span></div>
+      </div>
+      <div class="tint-ctrl" role="radiogroup" aria-label="Gradazione pellicola">
+        <button data-v="0.05" data-t="Limousine, massima privacy">5%</button>
+        <button data-v="0.2" data-t="Privacy alta, visibile di giorno" class="on">20%</button>
+        <button data-v="0.3" data-t="Equilibrio tra privacy e luce">30%</button>
+        <button data-v="0.5" data-t="Leggero, riduce calore e UV">50%</button>
+      </div>
+      <p class="tint-note">Prova le gradazioni: la percentuale indica quanta luce passa. Sui vetri anteriori valgono limiti di legge: [Antonio spiega cosa si può montare].</p>
+    </div>
+  </div>
+</section>
+
+<!-- STRIP -->
+<section class="strip">
+  <div class="wrap strip-in">
+    <div><b>Johnson Window Films</b><span>pellicole professionali che usa e vende</span></div>
+    <div><b>Aperto 6 giorni</b><span>lun–ven 9–13 · 15–19, sab 9–13</span></div>
+    <div><b>Antonio in officina</b><span>[confermare: lavora da solo?]</span></div>
+    <div><b>[Anni di attività]</b><span>[da confermare]</span></div>
+  </div>
+</section>
+
+<!-- SERVIZI -->
+<section class="sec" id="servizi">
+  <div class="wrap">
+    <div class="sec-hd">
+      <p class="kicker">Servizi</p>
+      <h2>Cosa facciamo in officina</h2>
+    </div>
+    <div class="svc">
+      <article class="card card-big">
+        <span class="num">01</span>
+        <h3>Oscuramento vetri</h3>
+        <p>Pellicole per vetri posteriori e lunotto: più privacy, meno calore nell'abitacolo, protezione dai raggi UV per interni e passeggeri.</p>
+        <ul class="ticks"><li>Gradazioni dal 5% al 50%</li><li>Taglio su misura per il modello</li><li>Anche vetri in plexiglass (es. Fiat 500L, Smart)</li></ul>
+        <p class="price">Da [€ —] · tempi [—]</p>
+      </article>
+      <article class="card">
+        <span class="num">02</span>
+        <h3>PPF · Paint Protection Film</h3>
+        <p>Pellicola trasparente che protegge la vernice da sassi, graffi e piccoli urti. Frontale, fari, zone di carico o auto intera.</p>
+        <p class="price">Da [€ —]</p>
+      </article>
+      <article class="card">
+        <span class="num">03</span>
+        <h3>Wrapping</h3>
+        <p>Cambio colore, tetto, specchietti, dettagli in nero lucido o opaco. Pellicole fumé per fari.</p>
+        <p class="price">Da [€ —]</p>
+      </article>
+      <article class="card">
+        <span class="num">04</span>
+        <h3>Illuminazione LED</h3>
+        <p>Sostituzione lampade, luci interne, battitacco illuminati con logo. Anche dove altri non hanno trovato la soluzione giusta.</p>
+        <p class="price">Da [€ —]</p>
+      </article>
+      <article class="card">
+        <span class="num">05</span>
+        <h3>Car audio e tablet</h3>
+        <p>Autoradio, altoparlanti con supporti dedicati, tablet Android al posto della radio originale.</p>
+        <p class="price">Da [€ —]</p>
+      </article>
+      <article class="card card-wide">
+        <span class="num">06</span>
+        <h3>Interni su misura</h3>
+        <p>Incisione laser su Alcantara, rivestimenti in ecopelle e personalizzazioni degli interni.</p>
+        <p class="price">Su preventivo</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PELLICOLE / METODO -->
+<section class="sec sec-dark" id="pellicole">
+  <div class="wrap two">
     <div>
-      <div class="eyebrow" style="color:var(--gold-light);">Eleganza italiana · Protezione intelligente</div>
-      <h1>La borsa che veglia su ciò che conta</h1>
-      <p class="lead">Pelletteria di lusso realizzata a mano, con un sistema antifurto discreto integrato: sincronizzato con smartphone e smartwatch, ti avvisa in tempo reale se la tua borsa si allontana da te.</p>
-      <div class="hero-actions">
-        <a href="collezione.html" class="btn btn--gold">Esplora la collezione</a>
-        <a href="tecnologia.html" class="btn btn--outline-light">Come funziona →</a>
-      </div>
+      <p class="kicker">Come lavoriamo</p>
+      <h2>Una pellicola si vede solo quando è montata male.</h2>
+      <p>Per questo il lavoro si fa al chiuso, con il vetro pulito a fondo e la pellicola tagliata sul modello. Niente bolle, niente bordi che si alzano.</p>
+      <p class="muted">[Testo da scrivere con Antonio: garanzia sulle pellicole, materiali, cosa fare nei primi giorni.]</p>
     </div>
-    <div class="hero-media">
-      <svg viewBox="0 0 200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M40 90 Q40 60 70 55 L130 55 Q160 60 160 90 L160 190 Q160 205 145 205 L55 205 Q40 205 40 190 Z" stroke="#c9a55c" stroke-width="1.5"/>
-        <path d="M70 90 L70 55 Q70 25 100 25 Q130 25 130 55 L130 90" stroke="#c9a55c" stroke-width="1.5"/>
-        <rect x="85" y="105" width="30" height="22" rx="3" stroke="#c9a55c" stroke-width="1.5"/>
-        <circle cx="100" cy="116" r="4" fill="#c9a55c"/>
-        <path d="M100 120 L100 132" stroke="#c9a55c" stroke-width="1.5"/>
-        <circle cx="100" cy="140" r="18" stroke="#c9a55c" stroke-width="1" opacity="0.5"/>
-        <circle cx="100" cy="140" r="28" stroke="#c9a55c" stroke-width="1" opacity="0.25"/>
-      </svg>
-      <div class="hero-badge">
-        <b>Anti-theft Smart System</b>
-        Sincronizzazione Bluetooth · Allerta in tempo reale
-      </div>
-    </div>
+    <ol class="steps">
+      <li><b>Sopralluogo</b><span>Guardi le gradazioni dal vivo sulla tua auto e scegli.</span></li>
+      <li><b>Preparazione</b><span>Pulizia e decontaminazione del vetro o della vernice.</span></li>
+      <li><b>Taglio e posa</b><span>Pellicola tagliata su misura e applicata a mano.</span></li>
+      <li><b>Consegna</b><span>Controllo finale e consigli per i primi giorni.</span></li>
+    </ol>
   </div>
 </section>
 
-<section class="stats-strip">
-  <div class="container">
-    <div class="grid grid--4">
-      <div><b>100%</b><span>Pelle italiana selezionata</span></div>
-      <div><b>&lt;5s</b><span>Tempo di allerta allontanamento</span></div>
-      <div><b>iOS / Android</b><span>App di sincronizzazione</span></div>
-      <div><b>2 anni</b><span>Garanzia su meccanismo e modulo smart</span></div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="section-head">
+<!-- LAVORI -->
+<section class="sec" id="lavori">
+  <div class="wrap">
+    <div class="sec-hd row">
       <div>
-        <div class="eyebrow">Perché ARCA</div>
-        <h2>Artigianato e tecnologia, senza compromessi</h2>
+        <p class="kicker">Lavori</p>
+        <h2>Alcune auto passate da qui</h2>
       </div>
-      <a href="tecnologia.html" class="btn btn--outline">Scopri la tecnologia</a>
+      <a class="btn btn-ghost btn-sm" href="https://www.instagram.com/" target="_blank" rel="noopener">[Instagram di Creazione Moderna]</a>
     </div>
-    <div class="grid grid--3">
-      <div class="card">
-        <div class="card-icon">✦</div>
-        <h3>Pelletteria artigianale</h3>
-        <p>Ogni borsa è realizzata a mano da maestri pellettieri italiani, con pelli pieno fiore selezionate una a una.</p>
-        <a href="chi-siamo.html" class="card-link">La nostra storia →</a>
-      </div>
-      <div class="card">
-        <div class="card-icon">◈</div>
-        <h3>Sistema antifurto integrato</h3>
-        <p>Un modulo discreto, invisibile all'esterno, sincronizzato via Bluetooth con smartphone e smartwatch.</p>
-        <a href="tecnologia.html" class="card-link">Come funziona →</a>
-      </div>
-      <div class="card">
-        <div class="card-icon">◎</div>
-        <h3>Allerta in tempo reale</h3>
-        <p>Se la borsa si allontana oltre la distanza di sicurezza, ricevi una notifica immediata sul telefono o sull'orologio.</p>
-        <a href="tecnologia.html" class="card-link">Dettagli tecnici →</a>
-      </div>
+    <div class="gal">
+      <figure class="ph ph-a"><figcaption>[Foto: Audi Q3, oscuramento vetri]</figcaption></figure>
+      <figure class="ph ph-b"><figcaption>[Foto: MG ZS, pellicole]</figcaption></figure>
+      <figure class="ph ph-c"><figcaption>[Foto: wrapping]</figcaption></figure>
+      <figure class="ph ph-d"><figcaption>[Foto: Alcantara incisa a laser, Alfa Romeo]</figcaption></figure>
+      <figure class="ph ph-e"><figcaption>[Foto: LED battitacco]</figcaption></figure>
+      <figure class="ph ph-f"><figcaption>[Foto: car audio]</figcaption></figure>
     </div>
   </div>
 </section>
 
-<section class="section section--cream">
-  <div class="container feature">
+<!-- RECENSIONI -->
+<section class="sec sec-line" id="recensioni">
+  <div class="wrap rev">
+    <div class="rev-score">
+      <b>4,9</b>
+      <span class="stars" aria-hidden="true">★★★★★</span>
+      <p>89 recensioni su Google</p>
+      <a class="btn btn-accent btn-sm" href="https://www.google.com/maps/place/?q=place_id:ChIJgYCbsfzyRxMRjWw0ph49-mY" target="_blank" rel="noopener">Leggi le recensioni</a>
+    </div>
+    <div class="rev-words">
+      <p class="kicker">Cosa dicono i clienti</p>
+      <p class="rev-big">Precisione, cortesia e prezzi onesti: sono le tre cose che tornano più spesso nelle recensioni.</p>
+      <p class="muted">[Qui 3 recensioni vere da Google, con nome e permesso del cliente.]</p>
+    </div>
+  </div>
+</section>
+
+<!-- SHOP -->
+<section class="sec shop">
+  <div class="wrap shop-in">
     <div>
-      <div class="eyebrow">La tecnologia</div>
-      <h2>Un'idea semplice: la tua borsa non dovrebbe mai sparire senza che tu lo sappia</h2>
-      <p>Ogni borsa ARCA integra un modulo Bluetooth Low Energy, nascosto nella fodera, che comunica costantemente con la app ARCA sul tuo telefono o sul tuo smartwatch.</p>
-      <ul class="list-check">
-        <li>Notifica istantanea in caso di allontanamento improvviso</li>
-        <li>Ultima posizione nota visibile in app</li>
-        <li>Autonomia della batteria fino a 8 mesi</li>
-        <li>Nessuna modifica visibile al design della borsa</li>
-      </ul>
-      <a href="tecnologia.html" class="btn btn--outline" style="margin-top:8px;">Approfondisci →</a>
+      <p class="kicker">Shop</p>
+      <h2>Pellicole e accessori anche online</h2>
+      <p>Pellicole oscuranti Johnson Marathon a metro, supporti per altoparlanti, LED e accessori: si possono ordinare e spedire.</p>
     </div>
-    <div class="feature-media">
-      <svg viewBox="0 0 240 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="20" y="30" width="90" height="140" rx="14" stroke="#a4823a" stroke-width="1.5"/>
-        <rect x="34" y="50" width="62" height="94" rx="2" stroke="#a4823a" stroke-width="1"/>
-        <circle cx="65" cy="158" r="5" stroke="#a4823a" stroke-width="1.5"/>
-        <path d="M120 100 Q135 70 150 100" stroke="#a4823a" stroke-width="1.5" fill="none"/>
-        <path d="M110 100 Q135 55 160 100" stroke="#a4823a" stroke-width="1" fill="none" opacity="0.4"/>
-        <rect x="150" y="60" width="70" height="100" rx="10" stroke="#a4823a" stroke-width="1.5"/>
-        <rect x="162" y="76" width="46" height="46" rx="6" stroke="#a4823a" stroke-width="1"/>
-        <circle cx="185" cy="99" r="10" stroke="#a4823a" stroke-width="1"/>
-      </svg>
+    <div class="shop-act">
+      <a class="btn btn-ghost" href="https://www.ebay.it/str/creazionemoderna" target="_blank" rel="noopener">Negozio su eBay</a>
+      <a class="btn btn-ghost" href="#">[Shop sul sito: tenere o no?]</a>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="section-head">
-      <div>
-        <div class="eyebrow">Collezione</div>
-        <h2>Le nostre creazioni</h2>
-      </div>
-      <a href="collezione.html" class="btn btn--outline">Vedi tutta la collezione</a>
-    </div>
-    <div class="grid grid--3">
-      <div class="card product-card">
-        <div class="product-media">
-          <span class="product-tag">Smart</span>
-          <svg viewBox="0 0 160 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M25 60 Q25 40 45 38 L115 38 Q135 40 135 60 L135 120 Q135 130 125 130 L35 130 Q25 130 25 120 Z" stroke="#14120f" stroke-width="1.3"/>
-            <path d="M50 60 L50 38 Q50 18 80 18 Q110 18 110 38 L110 60" stroke="#14120f" stroke-width="1.3"/>
-          </svg>
-        </div>
-        <div class="product-body">
-          <div class="product-meta">Tote · Pelle pieno fiore</div>
-          <h3>Modello Aurora</h3>
-          <p>Silhouette strutturata, ideale per il giorno.</p>
-          <div class="product-price">€ 890</div>
-        </div>
-      </div>
-      <div class="card product-card">
-        <div class="product-media">
-          <span class="product-tag">Smart</span>
-          <svg viewBox="0 0 160 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="35" y="45" width="90" height="70" rx="8" stroke="#14120f" stroke-width="1.3"/>
-            <path d="M55 45 Q55 25 80 25 Q105 25 105 45" stroke="#14120f" stroke-width="1.3"/>
-            <rect x="70" y="65" width="20" height="16" rx="2" stroke="#14120f" stroke-width="1"/>
-          </svg>
-        </div>
-        <div class="product-body">
-          <div class="product-meta">Shoulder bag · Vitello</div>
-          <h3>Modello Notte</h3>
-          <p>Linee minimal, portabilità versatile.</p>
-          <div class="product-price">€ 750</div>
-        </div>
-      </div>
-      <div class="card product-card">
-        <div class="product-media">
-          <span class="product-tag">Smart</span>
-          <svg viewBox="0 0 160 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M30 55 L130 55 L120 120 Q118 128 108 128 L52 128 Q42 128 40 120 Z" stroke="#14120f" stroke-width="1.3"/>
-            <path d="M60 55 Q60 30 80 30 Q100 30 100 55" stroke="#14120f" stroke-width="1.3"/>
-          </svg>
-        </div>
-        <div class="product-body">
-          <div class="product-meta">Clutch · Pelle scamosciata</div>
-          <h3>Modello Luce</h3>
-          <p>Formato sera, presenza discreta e sicura.</p>
-          <div class="product-price">€ 620</div>
-        </div>
-      </div>
+<!-- PREVENTIVO + DOVE -->
+<section class="sec sec-dark" id="preventivo">
+  <div class="wrap two">
+    <form class="quote" id="quote">
+      <p class="kicker">Preventivo</p>
+      <h2>Dicci auto e lavoro, ti rispondiamo su WhatsApp</h2>
+      <label>Servizio
+        <select name="servizio" required>
+          <option>Oscuramento vetri</option>
+          <option>PPF</option>
+          <option>Wrapping</option>
+          <option>Illuminazione LED</option>
+          <option>Car audio / tablet</option>
+          <option>Interni</option>
+          <option>Altro</option>
+        </select>
+      </label>
+      <label>Auto (marca, modello, anno)
+        <input name="auto" placeholder="Es. Audi Q3 2021" required>
+      </label>
+      <label>Nome
+        <input name="nome" placeholder="Il tuo nome" required>
+      </label>
+      <label>Note
+        <textarea name="note" rows="3" placeholder="Es. solo vetri posteriori, gradazione 20%"></textarea>
+      </label>
+      <button class="btn btn-accent" type="submit">Invia su WhatsApp</button>
+      <p class="form-note">Si apre WhatsApp con il messaggio pronto. Nessun dato viene salvato sul sito.</p>
+    </form>
+
+    <div class="where" id="dove">
+      <p class="kicker">Dove siamo</p>
+      <h2>Via Cardinale Marcello Mimmi 3, Bari</h2>
+      <a class="map" href="https://www.google.com/maps/place/?q=place_id:ChIJgYCbsfzyRxMRjWw0ph49-mY" target="_blank" rel="noopener" aria-label="Apri in Google Maps">
+        <span class="pin"></span>
+        <span class="map-lbl">Apri in Google Maps →</span>
+      </a>
+      <dl class="hours">
+        <dt>Lun – Ven</dt><dd>9:00 – 13:00 · 15:00 – 19:00</dd>
+        <dt>Sabato</dt><dd>9:00 – 13:00</dd>
+        <dt>Domenica</dt><dd>Chiuso</dd>
+      </dl>
+      <p class="contacts">
+        <a href="tel:+393334150804">+39 333 415 0804</a>
+        <a href="https://wa.me/393334150804" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://www.facebook.com/creazionemoderna/" target="_blank" rel="noopener">Facebook</a>
+      </p>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <blockquote class="quote-block">
-      "Il vero lusso non è solo indossare qualcosa di bello — è non doversene mai preoccupare."
-      <cite>— Filosofia ARCA</cite>
-    </blockquote>
-  </div>
-</section>
+</main>
 
-<section class="section--tight">
-  <div class="container">
-    <div class="cta-banner">
-      <h2>Prenota un'anteprima della collezione</h2>
-      <p>Lasciaci i tuoi contatti: ti aggiorneremo sul lancio e sulle disponibilità in edizione limitata.</p>
-      <div class="cta-actions">
-        <a href="contatti.html" class="btn btn--gold">Contattaci</a>
-        <a href="https://wa.me/390000000000" class="btn btn--outline-light" target="_blank" rel="noopener">WhatsApp →</a>
-      </div>
+<footer class="ftr">
+  <div class="wrap ftr-in">
+    <div>
+      <b>Creazione Moderna</b> di Antonio Ungaro<br>
+      Via Cardinale Marcello Mimmi 3, 70124 Bari · P.IVA [da inserire]
     </div>
-  </div>
-</section>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <div class="footer-brand"><span class="brand-mark">A</span> ARCA</div>
-        <p style="max-width:280px;">Borse di lusso italiane con sistema antifurto intelligente integrato.</p>
-        <div class="footer-social">
-          <a href="#" aria-label="Instagram">ig</a>
-          <a href="#" aria-label="Facebook">f</a>
-          <a href="#" aria-label="TikTok">tt</a>
-        </div>
-      </div>
-      <div class="footer-col">
-        <h4>Il sito</h4>
-        <ul>
-          <li><a href="collezione.html">Collezione</a></li>
-          <li><a href="tecnologia.html">Tecnologia</a></li>
-          <li><a href="chi-siamo.html">Chi Siamo</a></li>
-          <li><a href="contatti.html">Contatti</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Assistenza</h4>
-        <ul>
-          <li><a href="contatti.html">Domande frequenti</a></li>
-          <li><a href="contatti.html">Spedizioni e resi</a></li>
-          <li><a href="contatti.html">Garanzia</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Contatti</h4>
-        <ul>
-          <li><a href="tel:+390000000000">+39 000 000 0000</a></li>
-          <li><a href="mailto:info@arca-borse.it">info@arca-borse.it</a></li>
-          <li><a href="https://wa.me/390000000000">WhatsApp →</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2026 ARCA — Bozza di lavoro, non sito ufficiale</span>
-      <span><a href="#">Privacy</a> · <a href="#">Cookie</a></span>
+    <div class="ftr-r">
+      <a href="#">Privacy</a> · <a href="#">Cookie</a><br>
+      Sito realizzato da <a href="https://clickbari.it" target="_blank" rel="noopener">ClickBari</a>
     </div>
   </div>
 </footer>
 
-<a href="https://wa.me/390000000000" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+<a class="wa-float" href="https://wa.me/393334150804" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="#fff" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.7a10.7 10.7 0 0 1-5.5-1.5l-.4-.2-3.9 1 1-3.8-.2-.4A10.7 10.7 0 1 1 16 26.7Zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.8.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4 14.7 14.7 0 0 0 5.7 5c2.1.9 2.9 1 4 .8.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.3.2-1.5l-.6-.3Z"/></svg>
+</a>
 
-<script src="js/main.js"></script>
+<script src="assets/main.js"></script>
 </body>
 </html>
